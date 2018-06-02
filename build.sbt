@@ -11,3 +11,5 @@ libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-typed-experimental" % "2.5-M1",
   "org.scalaz" %% "scalaz-core" % "7.2.23"
 )
+
+enablePlugins(JmhPlugin)
